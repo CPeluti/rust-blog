@@ -1,0 +1,14 @@
+[package]
+name = "backend-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+comrak = "0.19"
+askama = "0.12.1"
+axum = "0.6.20"
+tokio = {version = "1.33.0", features = ["full"]}
+tracing-subscriber = "0.3.17"
+tracing = "0.1.37"
